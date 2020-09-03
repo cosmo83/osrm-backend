@@ -47,7 +47,7 @@ struct Parameters
     double kAtMostLongerBy = 0.3;
     // Alternative paths similarity requirement (sharing).
     // At least 25% different than the shortest path.
-    double kAtMostSameBy = 0.7x5;
+    double kAtMostSameBy = 0.75;
     // Alternative paths are still reasonable around the via node candidate (local optimality).
     // At least optimal around 10% sub-paths around the via node candidate.
     double kAtLeastOptimalAroundViaBy = 0.025;
